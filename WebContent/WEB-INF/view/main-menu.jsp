@@ -3,6 +3,6 @@
 
 <h2>Main Menu</h2>
 
-<a href="showForm"> Go to Form</a>
+<a href="hello/showForm"> Go to Form</a>
 </body>
 </html>
