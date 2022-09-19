@@ -6,7 +6,13 @@
 </head>
 
 <body>
-The customer is: ${customer.firstName } ${customer.lastName }
+	The customer is: ${customer.firstName } ${customer.lastName }
+	<br>
+	<br> 
+	Free passes : ${ customer.freePasses }
+	<br>
+	<br> 
+	Free passes : ${ customer.postalCode }
 
 </body>
 
