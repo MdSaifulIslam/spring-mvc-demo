@@ -6,6 +6,8 @@ import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Pattern;
 import javax.validation.constraints.Size;
 
+import com.springdemo.mvc.validator.CourseCode;
+
 public class Customer {
 	private String firstName ="111";
 	
@@ -22,6 +24,15 @@ public class Customer {
 	@Pattern(regexp = "^[a-zA-z0-9]{5}", message = "Please input string of 5 charecters" )
 	private String postalCode;
 	
+	@CourseCode
+	private String courseCode;
+	
+	public String getCourseCode() {
+		return courseCode;
+	}
+	public void setCourseCode(String courseCode) {
+		this.courseCode = courseCode;
+	}
 	public String getPostalCode() {
 		return postalCode;
 	}
